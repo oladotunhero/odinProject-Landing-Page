@@ -1,17 +1,22 @@
-body {
-    background-color: #1F2937;
-    margin: 0;
+* { margin: 0;
+    padding: 0;
 }
+/*body {
+    
+}*/
 /*nav-bar design*/
 nav {
     display: flex;
     justify-content: space-around;
     gap: 10px;
+    background-color: #1F2937;
+    padding-bottom: 50px;
 }
 .nav-image {
     max-width: 100px;
     max-height: 50px;
     border-radius: 100px;
+    padding-top: 10px;
 }
 .header-links {
     display: flex;
@@ -25,16 +30,22 @@ a {
 }
 
 /*section one*/
+.sect-one{
+    background-color: #1F2937;
+    height: 400px;
+}
 .main-container{
     color: #F9FAF8;
     display: flex;
     align-items: center;
-    margin: 30px;
+    justify-content: center;
+}
+.baby-container {
+    max-width: 400px;
 }
 .hero{
     font-size: 48px;
     font-weight: 800;
-    margin: 0;
 }
 .sect-img{
     border-radius: 100px;
@@ -59,8 +70,8 @@ button {
     font-weight: 900;
     display: flex;
     justify-content: center;
-    margin: 100px 0 40px;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
   }
   .text{
     text-align: center;
@@ -81,3 +92,23 @@ button {
 .child {
     max-width: 200px;
   }
+
+/* Section Three */
+.sect-three {
+    height: 400px;
+    background-color: #E5E7EB;
+}
+.quote {
+    padding: 100px 100px 0 100px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+.speaker {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-weight: 900;
+    padding-right: 150px;
+    font-size: larger;
+}
