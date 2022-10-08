@@ -1,11 +1,12 @@
 body {
     background-color: #1F2937;
+    margin: 0;
 }
 /*nav-bar design*/
 nav {
     display: flex;
     justify-content: space-around;
-    gap: 220px;
+    gap: 10px;
 }
 .nav-image {
     max-width: 100px;
@@ -23,12 +24,12 @@ a {
     font-size: 18px;
 }
 
-/*section*/
+/*section one*/
 .main-container{
     color: #F9FAF8;
     display: flex;
     align-items: center;
-    margin: 60px;
+    margin: 30px;
 }
 .hero{
     font-size: 48px;
@@ -47,3 +48,36 @@ button {
     color: #F9FAF8;
     border-radius: 25px;
 }
+
+/* Section Two*/
+.sect-two {
+    height: 400px;
+    background-color: white;
+}
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 40px;
+    padding-top: 50px;
+  }
+  .text{
+    text-align: center;
+  }
+.img-sect2 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+}
+.sect-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+  }
+.child {
+    max-width: 200px;
+  }
