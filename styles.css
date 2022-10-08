@@ -1,12 +1,16 @@
+body {
+    background-color: #1F2937;
+}
+/*nav-bar design*/
 nav {
     display: flex;
     justify-content: space-around;
     gap: 220px;
-    background-color: #1F2937;
 }
-img {
+.nav-image {
     max-width: 100px;
     max-height: 50px;
+    border-radius: 100px;
 }
 .header-links {
     display: flex;
@@ -15,5 +19,31 @@ img {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+/*section*/
+.main-container{
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    margin: 60px;
+}
+.hero{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+.sect-img{
+    border-radius: 100px;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+}
+button {
+    background-color: #3882F6;
+    border: 0ch;
+    color: #F9FAF8;
+    border-radius: 25px;
 }
