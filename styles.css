@@ -15,7 +15,7 @@ nav {
 .nav-image {
     max-width: 100px;
     max-height: 50px;
-    border-radius: 100px;
+    border-radius: 200px;
     padding-top: 10px;
 }
 .header-links {
@@ -30,9 +30,10 @@ a {
 }
 
 /*section one*/
-.sect-one{
+#sect-one{
     background-color: #1F2937;
     height: 400px;
+    gap: 2em;
 }
 .main-container{
     color: #F9FAF8;
@@ -41,11 +42,13 @@ a {
     justify-content: center;
 }
 .baby-container {
-    max-width: 400px;
+    max-width: 500px;
+    padding-right: 100px;
 }
 .hero{
     font-size: 48px;
     font-weight: 800;
+    padding-bottom: 10px ;
 }
 .sect-img{
     border-radius: 100px;
@@ -53,15 +56,16 @@ a {
     height: 300px;
     padding: 30px;
 }
-button {
+.btn1 {
     background-color: #3882F6;
-    border: 0ch;
     color: #F9FAF8;
-    border-radius: 25px;
+    border: 0;
+    width: 80px;
+    border-radius: 5px;
 }
 
 /* Section Two*/
-.sect-two {
+#sect-two {
     height: 400px;
     background-color: white;
 }
@@ -111,4 +115,59 @@ button {
     font-weight: 900;
     padding-right: 150px;
     font-size: larger;
+}
+
+/* Section Four */
+#sect-four {
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call {
+    width: 900px;
+    height: 100px;
+    background-color: #3882F6 ;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+.time {
+    font-size: 26px;
+    font-weight: bolder;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 200px;
+}
+.btn2 {
+    
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 16px;
+}
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    height: 80px;
+    text-align: center;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
