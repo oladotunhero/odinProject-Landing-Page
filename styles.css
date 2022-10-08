@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 220px;
+    background-color: #1F2937;
+}
+img {
+    max-width: 100px;
+    max-height: 50px;
+}
+.header-links {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
